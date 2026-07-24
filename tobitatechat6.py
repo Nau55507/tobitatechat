@@ -143,7 +143,7 @@ SYSTEM_PROMPTS = {
     ),
 }
 
-client = genai.Client()
+client = genai.Client(api_key=GEMINI_API_KEY)
 
 # =========================================================
 # 3. サイドバー
